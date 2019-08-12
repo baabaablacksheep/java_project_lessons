@@ -6,6 +6,8 @@ import java.util.Random;
 
 class Email {
 
+    // TODO Get User Input to Choose The Department Through a Scanner, Change UserName Only When Creating The Email, Generate The Password Through a Given Set Of Chars
+
     // Basic Info of the User
     private String firstName;
     private String lastName;
@@ -63,6 +65,11 @@ class Email {
     public String getAlternateEmail() {
         return alternateEmail;
     }
+    String getName(){
+        String fName_let1 = String.valueOf(firstName.charAt(0)).toUpperCase();
+        String lName_let1 = String.valueOf(lastName.charAt(0)).toUpperCase();
+        return fName_let1+firstName.substring(1)+" "+lName_let1+lastName.substring(1);
+    }
 
     // Methods Implementing Business Logic
     private String generateEmailAddress(){
@@ -77,9 +84,10 @@ class Email {
 
         StringBuilder strBuilder = new StringBuilder();
         for(int i=0; i<passwordLength; i++){
-            int charNum = rand.nextInt(pwEndChar - pwStartChar) - pwStartChar;
+            int charNum = rand.nextInt(pwEndChar - pwStartChar) + pwStartChar;
             strBuilder.append((char)charNum);
         }
+        System.out.println("Password : "+strBuilder.toString());
         return strBuilder.toString();
     }
 }

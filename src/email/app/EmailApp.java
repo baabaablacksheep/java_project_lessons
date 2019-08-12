@@ -9,5 +9,8 @@ public class EmailApp {
         System.out.println("Email 1 : "+email_1.getEmailAddress());
         System.out.println("Email 2 : "+email_2.getEmailAddress());
 
+        System.out.println("User_1 Name : "+email_1.getName());
+        System.out.println("User_2 Name : "+email_2.getName());
+
     }
 }
