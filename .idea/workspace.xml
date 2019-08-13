@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565615218803</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added TODO Corrections According To Video">
+      <created>1565618684604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565618684604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -142,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit On The email-app branch" />
     <MESSAGE value="Completed Generating Email and Random Password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Generating Email and Random Password" />
+    <MESSAGE value="Added TODO Corrections According To Video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TODO Corrections According To Video" />
   </component>
 </project>

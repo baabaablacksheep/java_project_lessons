@@ -3,10 +3,9 @@ package email.app;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Random;
+import java.util.Scanner;
 
 class Email {
-
-    // TODO Get User Input to Choose The Department Through a Scanner, Change UserName Only When Creating The Email, Generate The Password Through a Given Set Of Chars
 
     // Basic Info of the User
     private String firstName;
@@ -21,73 +20,89 @@ class Email {
     private int mailboxCapacity = 100;
     private String alternateEmail;
 
-    // Creating A Random Object To Generate Random Objects
-    private Random rand = new Random();
-
     // Multiple Constructors to Handle Different Object Initializations
     Email(@NotNull String firstName, @NotNull String lastName, @NotNull String company){
         this(firstName,lastName,company,"");
     }
     Email(@NotNull String firstName, @NotNull String lastName, @NotNull String company, String department){
-        this.firstName = firstName.toLowerCase();
-        this.lastName = lastName.toLowerCase();
-        this.company = company.toLowerCase();
-        this.department = department.toLowerCase();
-
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.company = company;
+        if(department.equals("")){
+            this.department = departmentSelector();
+        } else {
+            this.department = department.toLowerCase();
+        }
         this.emailAddress = generateEmailAddress();
         this.password = generatePassword();
+        System.out.println("Generated Password: "+this.password);
     }
 
     // Setters
-    public void setPassword(String oldPassword, String Newpassword) throws Exception{
+    void setPassword(String oldPassword, String newPassword) throws Exception{
         if(this.password.equals(oldPassword)){
-            this.password = Newpassword;
+            this.password = newPassword;
         } else {
             throw new IllegalArgumentException("The Provided Password Doesn't Match With The Existing Password");
         }
     }
-    public void setMailboxCapacity(int mailboxCapacity) {
+    void setMailboxCapacity(int mailboxCapacity) {
         this.mailboxCapacity = mailboxCapacity;
     }
 
-    public void setAlternateEmail(String alternateEmail) {
+    void setAlternateEmail(String alternateEmail) {
         this.alternateEmail = alternateEmail;
     }
 
     // Getters
-    String getEmailAddress() {
+    private String getEmailAddress() {
         return emailAddress;
     }
-    public int getMailboxCapacity() {
+    private int getMailboxCapacity() {
         return mailboxCapacity;
     }
 
-    public String getAlternateEmail() {
+    private String getAlternateEmail() {
         return alternateEmail;
     }
-    String getName(){
-        String fName_let1 = String.valueOf(firstName.charAt(0)).toUpperCase();
-        String lName_let1 = String.valueOf(lastName.charAt(0)).toUpperCase();
-        return fName_let1+firstName.substring(1)+" "+lName_let1+lastName.substring(1);
+
+    private String getName(){
+        return firstName+" "+lastName;
     }
 
     // Methods Implementing Business Logic
+    private String departmentSelector(){
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Choose The Department: \n1 - Sales\n2 - Marketing\n3 - Finance\nEnter Your Choice: ");
+        int deptNo = sc.nextInt();
+        switch(deptNo){
+            case 1: return "sales";
+            case 2: return "marketing";
+            case 3: return "finance";
+            default: return "";
+        }
+    }
     private String generateEmailAddress(){
-        return this.firstName+"."+this.lastName+"@"+(!this.department.equals("") ? this.department +"." : "")+this.company+".com";
+        return (this.firstName+"."+this.lastName+"@"+(!this.department.equals("") ? this.department +"." : "")+this.company+".com").toLowerCase();
     }
     private String generatePassword(){
 
-        // Password Related
         int passwordLength = 10;
-        int pwStartChar = 48;
-        int pwEndChar = 127;
+        String charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$&abcdefghijklmnopqrstuvwxyz";
+        char[] passwordChar = new char[passwordLength];
+        Random rand = new Random();
 
-        StringBuilder strBuilder = new StringBuilder();
-        for(int i=0; i<passwordLength; i++){
-            int charNum = rand.nextInt(pwEndChar - pwStartChar) + pwStartChar;
-            strBuilder.append((char)charNum);
+        for(int i=0;i<passwordLength;i++){
+            passwordChar[i] = charSet.charAt(rand.nextInt(charSet.length()));
         }
-        System.out.println("Password : "+strBuilder.toString());
-        return strBuilder.toString();
+        return new String(passwordChar).trim();
+    }
+    void showInfo(){
+        System.out.println("================="+getName()+"===================");
+        System.out.println("Username: "+getName());
+        System.out.println("Email Address: "+getEmailAddress());
+        System.out.println("Mail Box Capacity: "+getMailboxCapacity());
+        System.out.println("Alternate Email: "+getAlternateEmail());
     }
 }
