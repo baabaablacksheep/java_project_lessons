@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff90228-05f4-4c36-b31e-549bb0ddf659" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/Project2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentdatabaseapp/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/studentdatabaseapp/StudentApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email/app/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email/app/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email/app/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email/app/EmailApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Project1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/email/app/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/email/app/EmailApp.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="email-app" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,40 +61,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Application.EmailApp">
-    <configuration name="EmailApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="email.app.EmailApp" />
-      <module name="Udemy_Project_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="email.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.Hello" />
-      <module name="Udemy_Project_Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.EmailApp" />
-        <item itemvalue="Application.Hello" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -132,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565618684604</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added TODO Corrections According To Video">
+      <created>1565696035317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565696035317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Did Some Corrections According To Video Autogenerating Password and showInfo method">
+      <created>1565696233956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565696233956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +136,8 @@
     <MESSAGE value="First Commit On The email-app branch" />
     <MESSAGE value="Completed Generating Email and Random Password" />
     <MESSAGE value="Added TODO Corrections According To Video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TODO Corrections According To Video" />
+    <MESSAGE value="Did Some Corrections According To Video (Autogenerating Password and showInfo() method)" />
+    <MESSAGE value="Did Some Corrections According To Video Autogenerating Password and showInfo method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did Some Corrections According To Video Autogenerating Password and showInfo method" />
   </component>
 </project>
