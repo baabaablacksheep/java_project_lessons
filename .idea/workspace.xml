@@ -3,20 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="dff90228-05f4-4c36-b31e-549bb0ddf659" name="Default Changelist" comment="Added Factory and Single Design Patterns and a Level Classes To Generate Different Courses For Different Levels">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_Project_Course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_Project_Course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Project2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/GetCourseFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/types/CSCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/types/ChemistryCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/types/EnglishCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/types/HistoryCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/courses/types/MathCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/levels/Level.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/levels/Level1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/levels/Level2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studentdatabaseapp/StudentApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Udemy_Project_Course/BankAccountApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Udemy_Project_Course/BankAccountApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Udemy_Project_Course/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Udemy_Project_Course/account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Udemy_Project_Course/account/Checking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Udemy_Project_Course/account/Checking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Udemy_Project_Course/account/Savings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Udemy_Project_Course/account/Savings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankAccountApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/Checking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Checking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/Savings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Savings.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,20 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/account/Checking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="51">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,17 +39,34 @@
       <file leaf-file-name="Savings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/account/Savings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccountApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Checking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/account/Checking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankAccountApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -121,10 +126,10 @@
         <option value="$PROJECT_DIR$/src/main/account/Savings.java" />
         <option value="$PROJECT_DIR$/src/main/BankAccountApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/account/SavingsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/account/Checking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/account/Savings.java" />
         <option value="$PROJECT_DIR$/src/main/java/BankAccountApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/account/Checking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/account/Account.java" />
       </list>
     </option>
   </component>
@@ -360,7 +365,7 @@
       <workItem from="1566237195925" duration="5684000" />
       <workItem from="1567539440274" duration="721000" />
       <workItem from="1567699616289" duration="2907000" />
-      <workItem from="1568483278550" duration="4286000" />
+      <workItem from="1568483278550" duration="7785000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit On The email-app branch">
       <created>1565612220866</created>
@@ -422,10 +427,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42317000" />
+    <option name="totallyTimeSpent" value="45816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" />
@@ -446,8 +452,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5049505" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42244226" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -538,6 +544,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,6 +554,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,6 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -639,31 +656,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/account/Checking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/account/Savings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
