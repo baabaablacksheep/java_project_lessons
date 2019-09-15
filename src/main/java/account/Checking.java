@@ -9,7 +9,13 @@ public class Checking extends Account {
     public Checking(String accountHolderName, String SocialSecNum, double initDeposit) {
         super(accountHolderName, SocialSecNum, initDeposit);
         super.accountNo = "2" + accountNo;
+        setRate();
         setupDebitCard();
+    }
+
+    @Override
+    void setRate() {
+        super.rate = getBaseRate() * 0.15;
     }
 
     private void setupDebitCard(){

@@ -8,8 +8,14 @@ public class Savings extends Account {
     public Savings(String accountHolderName, String socialSecNum, double initDeposit) {
         super(accountHolderName, socialSecNum, initDeposit);
         super.accountNo = "1" + accountNo;
+        setRate();
         setupDepositBox();
 
+    }
+
+    @Override
+    void setRate(){
+        super.rate = getBaseRate() - 0.25;
     }
 
     private void setupDepositBox(){
